@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image:url(/image/pexels-quang-nguyen-vinh-2171277.jpg);
+}
+.link 
+{
+    width: 98%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.link h1{
+    padding: 20px 30px;
+    text-transform: uppercase;
+    background-color: blue;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 20px;
+    color: azure;
+}
+
+.link ul{
+    list-style: none;
+    padding: 15px 20px;
+}
+.link ul li{
+    display: inline-block;
+    position: relative;
+    padding: 5px 15px;
+    
+}
+.link ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: large;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: rgb(163, 163, 238);
+    
+}
+.drop {
+    position: absolute;  
+
+    display: none;
+}
+.link ul li .drop li{
+    display: block;
+    box-shadow: 2px 2px 3px black;
+    width: auto;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+
+}
+.drop  li a{
+    
+    text-align: center;
+}
+.link ul li:hover{
+    box-shadow: 2px 1px 3px rgb(107, 79, 230);
+
+    background-color: rgb(76, 76, 220);
+    border-radius: 10px 0px 0px 10px;
+}
+.link ul li a:hover{
+    color: azure;
+}
+.link ul li:hover .drop{
+    display: block;
+}
